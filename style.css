@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(221, 156, 178);
+}
+.choice-box{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(219, 63, 115);
+    border-radius: 30px;
+}
+.choice-box:hover{
+    height: 220px;
+    width: 220px;
+    transition: width 1s, height 1s;
+}
+.choice-box img{
+    width: 80%;
+    
+}
+.home-page{
+   margin-top: 200px;
+}
+.login-area{
+    text-align: center;
+    color: green;
+    height: 1%;
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 10px 30px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(219, 63, 115);
+    border-radius: 30px;
+}
+.login-area img{
+    width: 30%;
+}
+.sOrL-button{
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    background-color: antiquewhite;
+    box-shadow: 10px 10px 10px rgb(219, 63, 115);
+    border-radius: 30px;
+}
+.signUpOrLogin{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+.sOrL-button:hover{
+    background-color: white;
+    color: blue;
+    transition: background-color 1s ease, color 1s;
+}
+.customer-login-area{
+    display: none;
+}
+.customer-signup-area{
+    display: none;
+}
